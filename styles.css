@@ -1,1 +1,41 @@
 /*  your css code here. If applicable */
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+.hero{
+  
+	width:650px;
+	height:230px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+
+
+}
+.contleftt img{
+	 width:420px;
+     height:200px;
+	object-fit: cover;
+	margin:15px;
+}
+.contright h1{
+	font-size: 25px;
+}
+
+
+.contright button {
+	
+	text-decoration:none;
+	padding:8px;
+	background-color:#FF0001;
+	
+	border-radius:5px;
+	border:none;
+}
+.contright button a{
+     aligh-items:center;
+     color:white;
+	text-decoration:none;
+}
