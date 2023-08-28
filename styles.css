@@ -1,41 +1,42 @@
 /*  your css code here. If applicable */
-*{
-	margin:0px;
-	padding:0px;
-	box-sizing:border-box;
+.hero-title {
+    font-size: 36px;
+/*     margin: 20px 0; */
+/* 	padding-left:30px; */
+	margin-left:30px;
 }
-.hero{
-  
-	width:650px;
-	height:230px;
-	display:flex;
-	justify-content:center;
-	align-items:center;
-
-
-}
-.contleftt img{
-	 width:420px;
-     height:200px;
+.imgP{
+	width:700px;
+	height:400px;
 	object-fit: cover;
-	margin:15px;
-}
-.contright h1{
-	font-size: 25px;
-}
-
-
-.contright button {
 	
-	text-decoration:none;
-	padding:8px;
-	background-color:#FF0001;
-	
-	border-radius:5px;
-	border:none;
 }
-.contright button a{
-     aligh-items:center;
-     color:white;
-	text-decoration:none;
+.container{
+	position:static
+	width:50%;
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+    background-color: #f0f0f0;
+    text-align: center;
+}
+.explore-button {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+	border:none
+/*     transition: background-color 0.3s ease; */
+}
+.explore-button:hover {
+    background-color: #0056b3;
+}
+.hero-description {
+    font-size: 18px;
+    margin-bottom: 30px;
+	margin-left:30px
 }
